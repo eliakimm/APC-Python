@@ -1,0 +1,10 @@
+entrada= input().split(',')
+cor= entrada[0]
+n1= int(entrada[1])
+n2= int(entrada[2])
+n3= int(entrada[3])
+fn1= hex(n1)
+fn2= hex(n2)
+fn3= hex(n3)
+final= str('#' + fn1[2:] + fn2[2:] + fn3[2:])    
+print(f'{cor}', final.upper())
