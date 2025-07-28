@@ -154,4 +154,5 @@ while True:
         montar_time(time)
     #ENCERRAR LOOP:   
     elif n == 5:
+        print('Codigo finalizado!!!')
         break
